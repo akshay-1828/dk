@@ -10,3 +10,30 @@ resource "aws_s3_bucket" "example_bucket" {
   bucket = "my-unique-bucket-name"  # Must be globally unique
   acl    = "private"
 }
+Step-by-Step:
+Login to AWS Console:
+
+Go to: https://console.aws.amazon.com/
+
+Navigate to IAM (Identity and Access Management):
+
+In the search bar, type IAM and open the IAM dashboard.
+
+Click on "Users":
+
+Select your IAM user (or create a new one if needed).
+
+Go to the "Security credentials" tab:
+
+Click “Create access key”:
+
+Choose "Command Line Interface (CLI)" as the use case.
+
+Click Next → Confirm → Create access key.
+
+✅ You’ll see:
+
+Access key ID – Copy this.
+
+Secret access key – Copy this and save it securely (you won’t see it again).
+
